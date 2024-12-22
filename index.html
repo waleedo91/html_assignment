@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav>
-      <ul>
+      <ul id="nav-bar">
         <li>Home</li>
         <li>About</li>
         <li>Contact</li>
@@ -16,7 +16,7 @@
     </nav>
 
     <main>
-      <form>
+      <form id="form">
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" placeholder="Name" />
         <label for="email">Email:</label>
@@ -39,38 +39,44 @@
         <input type="submit" id="submit" value="Submit" />
       </form>
 
-      <h3>Products!</h3>
-      <table>
-        <tr>
-          <th>Product</th>
-          <th>Price</th>
-          <th>Quantity</th>
-        </tr>
-        <tr>
-          <td>Samsung Fold 6</td>
-          <td>2000</td>
-          <td>13</td>
-        </tr>
-        <tr>
-          <td>Iphone</td>
-          <td>1200</td>
-          <td>7</td>
-        </tr>
-        <tr>
-          <td>Google Pixel</td>
-          <td>800</td>
-          <td>28</td>
-        </tr>
-      </table>
-      <img
-        src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRESqBoE5903OKgqj-q5-zOImJhm0CPO-185JGbBF1dKUxroEthEoSVg7r0KrebpVzO1mMseM2_3oCtbvXeEvl4U-AuNKVk0m49Wa7p3U06MLI9018HlIbbgcjzFNBO8zoW9KId2hM&usqp=CAc"
-        alt="samsung galaxy fold 6"
-      />
-      <!-- TODO Round this image -->
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6RACuKQ8sJxNXI17b6tLyd4vmhraPT5OYmw&s"
-        alt="Apple logo"
-      />
+      <div id="table-section">
+        <h2 id="table-header">Products!</h2>
+        <table id="products-table">
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+          <tr>
+            <td>Samsung Fold 6</td>
+            <td>2000</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>Iphone</td>
+            <td>1200</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Google Pixel</td>
+            <td>800</td>
+            <td>28</td>
+          </tr>
+        </table>
+      </div>
+      <div id="image-section">
+        <img
+          src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRESqBoE5903OKgqj-q5-zOImJhm0CPO-185JGbBF1dKUxroEthEoSVg7r0KrebpVzO1mMseM2_3oCtbvXeEvl4U-AuNKVk0m49Wa7p3U06MLI9018HlIbbgcjzFNBO8zoW9KId2hM&usqp=CAc"
+          alt="samsung galaxy fold 6"
+          id="galaxy-image"
+        />
+        <!-- TODO Round this image -->
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6RACuKQ8sJxNXI17b6tLyd4vmhraPT5OYmw&s"
+          alt="Apple logo"
+          id="apple-image"
+        />
+      </div>
     </main>
   </body>
 </html>

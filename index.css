@@ -1,0 +1,47 @@
+#nav-bar {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 2px solid black;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+
+#table-section {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#products-table,
+th,
+td {
+  border: 2px solid black;
+  width: 75%;
+  height: 100%;
+  text-align: center;
+}
+
+#image-section {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#galaxy-image {
+  border: 3px solid black;
+}
+
+#apple-image {
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-left: 40px;
+}
